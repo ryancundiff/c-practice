@@ -16,7 +16,7 @@ int main(void) {
     return 1;
   }
 
-  // Print the month
+  // Print the month.
   switch (month) {
     case 1: printf("January "); break;
     case 2: printf("February "); break;
@@ -32,10 +32,10 @@ int main(void) {
     case 12: printf("December ");
   }
 
-  // Print the day
+  // Print the day.
   printf("%i", day);
 
-  // Print the suffix for a given day
+  // Print the suffix for a given day.
   if (day == 11 || day == 12 || day == 13) {
     printf("th, ");
   } else {
@@ -47,7 +47,7 @@ int main(void) {
     }
   }
 
-  // Print the year
+  // Print the year.
   printf("%i.\n", year);
   
   return 0;
